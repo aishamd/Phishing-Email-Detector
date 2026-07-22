@@ -1,0 +1,18 @@
+From: Training Team <training@company.example>
+Reply-To: training@company.example
+To: user@example.com
+Subject: Cybersecurity training schedule
+Date: Tue, 21 Jul 2026 09:00:00 +1000
+Authentication-Results: mx.example; spf=pass; dkim=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+Your cybersecurity awareness training begins next Monday.
+
+The course materials are available at:
+https://training.company.example/course
+
+Kind regards,
+Training Team

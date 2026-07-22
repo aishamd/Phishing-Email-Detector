@@ -1,0 +1,31 @@
+From: Microsoft Security <security@microsoft-alerts.example>
+Reply-To: support@account-verify.example
+Return-Path: <bounce@unknown-mail.example>
+To: user@example.com
+Subject: URGENT: Verify your account immediately
+Date: Tue, 21 Jul 2026 10:00:00 +1000
+Authentication-Results: mx.example; spf=fail; dkim=fail; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/plain; charset="utf-8"
+
+Dear user,
+
+We detected unusual activity. Your account will be suspended unless you act now.
+Click below to verify your account and confirm your identity:
+
+http://secure-login.account-update.example/verify
+
+You may be asked to enter your password and bank details.
+
+Regards,
+Security Team
+
+--BOUNDARY
+Content-Type: application/octet-stream
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+
+This is a harmless sample attachment placeholder.
+--BOUNDARY--
